@@ -35,4 +35,4 @@ def get_random_scooter_log():
 
 @app.get("/generate_tale")
 def get_tale():
-    return random.choice(TALES)
+    return {'tale': random.choice(TALES)}
