@@ -15,49 +15,49 @@ PLACESKINS = [
 
 ACCESSORIES = [
     {
-        'id': 1,
+        'id': 0,
         'name': '',
-        "type": "character accessory glass"
+        "type": "glasses"
+    },
+    {
+        'id': 1,
+        'name': 'plant',
+        "type": "glasses"
     },
     {
         'id': 2,
         'name': '',
-        "type": "character accessory glass"
+        "type": "glasses"
     },
     {
-        'id': 3,
+        'id': 0,
         'name': '',
-        "type": "character accessory glass"
+        "type": "tshirt"
     },
     {
-        'id': 4,
-        'name': '',
-        "type": "character accessory t-shirt"
+        'id': 1,
+        'name': 'green tshirt',
+        "type": "tshirt"
     },
     {
-        'id': 5,
+        'id': 2,
         'name': '',
-        "type": "character accessory t-shirt"
+        "type": "tshirt"
     },
     {
-        'id': 6,
+        'id': 0,
         'name': '',
-        "type": "character accessory t-shirt"
+        "type": "shoes"
     },
     {
-        'id': 7,
-        'name': '',
-        "type": "character accessory shoe"
+        'id': 1,
+        'name': 'sneakers',
+        "type": "shoes"
     },
     {
-        'id': 8,
+        'id': 2,
         'name': '',
-        "type": "character accessory shoe"
-    },
-    {
-        'id': 9,
-        'name': '',
-        "type": "character accessory shoe"
+        "type": "shoes"
     }
 ]
 
