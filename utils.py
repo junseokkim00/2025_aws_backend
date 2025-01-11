@@ -1,8 +1,6 @@
 import sqlite3
 
-
 db_path = "./my_db"
-
 
 def fetch_all(table_name):
     add_table()
