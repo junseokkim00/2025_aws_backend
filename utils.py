@@ -64,13 +64,14 @@ def add_item(table_name, new_item):
     connection = sqlite3.connect(db_path, timeout=20, isolation_level=None)
     cursor = connection.cursor()
     column_names = list(new_item.keys())
-    values = tuple(list(new_item.values))
+    # values = tuple(list(new_item.values))
+    values = (new_item[column_names[0]], new_item[column_names[1]], new_item[column_names[2]])
     columns="("
     for name in column_names:
         columns+=f"{name},"
         columns+=' '
     columns =columns.strip()
     columns+=')'
-    cursor.execute(f"INSERT OR IGNORE INTO {table_name} {columns} VALUES (?, ?, ?)", values)
+    cursor.execute(f"INSERT OR IGNORE INTO {table_name} (id, name, type) VALUES (?, ?, ?)", values)
     connection.commit()
     

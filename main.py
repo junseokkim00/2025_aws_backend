@@ -54,9 +54,10 @@ def get_random_scooter_log():
 def get_tale():
     return {'tale': random.choice(TALES)}
 
-@app.get("/gacha")
+@app.get("/gacha/")
 def get_random_prize():
     value = random.choice(ACCESSORIES)
+    print(value)
     return value
 
 @app.get("/get_accessories/{acc_type}")
@@ -88,4 +89,5 @@ def put_data(inst: dict):
             "name": row_name,
             "type": row_type
         })
+    print(result)
     return result

@@ -15,48 +15,18 @@ PLACESKINS = [
 
 ACCESSORIES = [
     {
-        'id': 0,
-        'name': '',
+        'id': 1,
+        'name': '아기자기 새싹 머리띠',
         "type": "glasses"
     },
     {
         'id': 1,
-        'name': 'plant',
-        "type": "glasses"
-    },
-    {
-        'id': 2,
-        'name': '',
-        "type": "glasses"
-    },
-    {
-        'id': 0,
-        'name': '',
+        'name': '지쿠 한정판 티셔츠 (초록색)',
         "type": "tshirt"
     },
     {
         'id': 1,
-        'name': 'green tshirt',
-        "type": "tshirt"
-    },
-    {
-        'id': 2,
-        'name': '',
-        "type": "tshirt"
-    },
-    {
-        'id': 0,
-        'name': '',
-        "type": "shoes"
-    },
-    {
-        'id': 1,
-        'name': 'sneakers',
-        "type": "shoes"
-    },
-    {
-        'id': 2,
-        'name': '',
+        'name': '퐁신퐁신 신발',
         "type": "shoes"
     }
 ]
